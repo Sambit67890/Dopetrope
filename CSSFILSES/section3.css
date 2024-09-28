@@ -1,0 +1,112 @@
+#section3{
+    /* border:2px solid navy; */
+    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    
+    
+}
+#main-icons{
+    /* border:2px solid red; */
+    height: 66vh;
+    width: 80%;
+    margin:auto;
+    display :flex;
+    justify-content: space-between;
+}
+#main-icons section{
+    /* border:2px solid black; */
+    text-align: center;
+}
+
+#middle{
+    /* border:2px solid black; */
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+#one{
+    clip-path: polygon(0 0, 100% 0%, 100% 76%, 50% 100%, 0 77%);
+    margin-bottom:20px ;
+    /* border:2px solid rgb(9, 218, 20); */
+    height: 110px;
+    width: 150px;
+    flex-wrap: wrap;
+    margin:auto;
+    background-color: #d52349;
+    border-left: 50px solid  #d52349;
+    border-right: 50px solid #d52349;   
+}
+
+  h2{
+    margin:10%;
+}
+#section3 ul{
+    /* border:2px solid green; */
+    
+    height: 70px;
+    width:50%;
+    margin-top:30px;
+    display:flex;
+    margin:auto;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color:white;
+}
+#section3 ul li{
+    border:2px solid brown;
+    background-color: brown;
+    border-radius: 5px;
+    height: inherit;
+    padding:20px 100px
+}
+
+#section3 ul li+li{
+    border:2px solid rgb(20, 20, 20);
+    background-color:rgb(20, 20, 20);
+    height: inherit;
+}
+#section3 ul li:hover{
+    /* border:2px solid brown; */
+    background-color: rgb(184, 30, 30,0.96);
+   
+}
+#section3 ul li+li:hover{
+    /* border:2px solid brown; */
+    background-color: rgba(32, 31, 31, 0.96);
+   
+}
+#one img{
+    /* border:2px solid rgb(16, 120, 211); */
+    height: 50px;
+    position:absolute;
+    align-items: center;
+}
+#two{
+    clip-path: polygon(0 0, 100% 0%, 100% 76%, 50% 100%, 0 77%);
+    margin-bottom:20px ;
+    /* border:2px solid rgb(9, 218, 20); */
+    height: 110px;
+    width: 150px;
+    flex-wrap: wrap;
+    margin:auto;
+    background-color: black;
+    border-left: 50px solid  black;
+    border-right: 50px solid black 
+}
+#three{
+    clip-path: polygon(0 0, 100% 0%, 100% 76%, 50% 100%, 0 77%);
+    margin-bottom:20px ;
+    /* border:2px solid rgb(9, 218, 20); */
+    height: 110px;
+    width: 150px;
+    flex-wrap: wrap;
+    margin:auto;
+    background-color: #827a7c;
+    border-left: 50px solid  #827a7c;
+    border-right: 50px solid #827a7c;
+}
